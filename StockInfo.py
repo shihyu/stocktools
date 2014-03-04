@@ -41,3 +41,4 @@ class stockinfo:
             for index, element in enumerate(item):
                 temp[infolist[index]] = element.text
             self.data[item[1].text] = temp
+            print(temp)
